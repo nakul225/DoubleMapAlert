@@ -4,8 +4,10 @@ DoubleMapAlert
 A web application that alerts user of an approaching bus near a user specified location.
 
 To run the application, run sse_server.py  
+	
 	python sse_server.py 
 This will start the server that can push alerts about upcoming buses to the client  
+	
 	Open http://localhost:8001/ in you browser.  
 
 Status about each bus in the input section would flash showing how far the bus is from target coordinates. When the bus comes within 0.3 miles from specified location, the webpage would alert user with name of the approaching bus.
